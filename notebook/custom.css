@@ -1,0 +1,82 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file
+*/
+
+.dropdown-toggle {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+#header-container, #menubar-container {
+    padding: 0px !important;
+    margin: auto 3px !important;
+    width: 100% !important;
+}
+
+#notebook {
+    padding-top: 3px !important;
+    padding-bottom: 0px !important;
+}
+
+#notebook-container {
+    padding: 4px !important;
+    margin: 0px !important;
+    width: 100% !important;
+    box-shadow: none !important;
+}
+
+.prompt {
+    max-width: 50px;
+    min-width: 20px !important;
+}
+
+.save_widget {
+    width: auto !important;
+}
+
+#maintoolbar, #maintoolbar-container {
+    width: auto !important;
+}
+
+.new-menu {
+
+}
+
+.new-menu::before {
+    content: "新建";
+    font-size: 16px;
+}
+
+.new-menu > li {
+    display: inline;
+    margin: 2px 4px;
+    font-size: 15px;
+}
+
+.new-menu > .dropdown-header {
+    display: block;
+    margin-left: 0px! important;
+    margin-top: 5px;
+}
+
+.terminado-container-container {
+    padding: 0px !important;
+    width: 100% !important;
+}
+
+#terminado-container {
+    width: 100% !important;
+}
+
+.xterm {
+    box-shadow: none !important;
+}
+
+#new-buttons {
+    visibility: collapse;
+    display: none;
+}
