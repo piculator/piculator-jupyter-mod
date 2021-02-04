@@ -89,17 +89,7 @@ function ResetLayout() {
         var menubar = document.getElementsByClassName('navbar-collapse collapse')[0];
         save_widget.parentNode.insertBefore(maintoolbar, kernel_logo);
         menubar.appendChild(save_widget);
-    }else if(path.search('/tree')!=-1){
-        console.log("TREE!")
-        var new_menu = document.getElementById('new-menu');
-        new_menu.classList.remove('dropdown-menu');
-        new_menu.classList.add('new-menu');
-        var notebook_toolbar = document.getElementById('notebook_toolbar');
-        var nb = document.getElementById('notebooks');
-        nb.appendChild(new_menu);
-        nb.insertBefore(new_menu,notebook_toolbar);
     }
-
 }
 window.addEventListener('load', function () {
     //console.log("Loaded!");
