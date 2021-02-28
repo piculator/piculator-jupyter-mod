@@ -75,8 +75,3 @@ This will always be an empty file
 .xterm {
     box-shadow: none !important;
 }
-
-#new-buttons {
-    visibility: collapse;
-    display: none;
-}
